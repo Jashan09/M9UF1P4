@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 18px;
+}
+
+#d1{
+    font-family: "Georgia";
+    font-size: 40px;
+}
+
+#d2{
+    font-family: "Palatino Linotype";
+    font-style: oblique;
+    font-size: 1cm;
+}
+
+
+#d3{
+    font-family: "Times New Roman";
+    font-weight: 900;
+    font-size: 20pt;
+}
+
+
+#d4{
+    font-family: "Arial";
+    text-shadow: 2px 2px wheat;
+    font-size: 1em;
+}
+
+#d5{
+    font-family: "Tahoma";
+    text-decoration: line-through;
+    font-size: 2rem;
+}
+
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+#d6{
+    font-family: 'Open Sans';
+    font-size: 120%;
+}
+
+#d7{
+    font-family: "Dancing Script";
+    text-align: left;
+    font-size: 4vh;
+ 
+}
+
+
+#d8{
+    font-family: 'Montserrat';
+    line-height: 2px;
+    font-size: 3vw;
+}
+
+
+@font-face {
+    font-family: 'Acme';
+    font-style: normal;
+    font-weight: 400;
+    src: url(Acme-Regular.ttf);
+}
+
+#d9{
+    font-family: 'Acme';
+    font-size: 2vmax;
+
+    -webkit-text-fill-color:cadetblue;
+
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+
+
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+
+#svg1{
+    background-color: coral;
+}
+
+#svg2{
+    box-shadow: 2px 4px cyan;
+}
